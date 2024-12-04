@@ -27,3 +27,6 @@ testcafe/screenshots/*
 public/.DS_Store
 public/.DS_Store
 public/.DS_Store
+meteor_settings.json
+.meteor/*
+.meteor/local/*

@@ -9,6 +9,7 @@ log.txt
 logs.txt
 logs/*
 meteor_settings.js
+meteor_settings.json
 node_modules
 node_modules/
 node_red_jsons
@@ -16,14 +17,7 @@ node_red_jsons/
 package-lock.json
 package-lock.json
 public/.DS_Store
-public/.DS_Store
-public/.DS_Store
-public/.DS_Store
 screenshots/*
-settings-development.json
-settings-production.json
-settings.json
-settings.json
 test/mongo_db
 testcafe/mongo_db/*
 testcafe/mongo_db2/*

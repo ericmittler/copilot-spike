@@ -6,7 +6,7 @@
     "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
     "testcafe": "WEB_PORT=3080 MONGO_PORT=3081 testcafe chrome testcafe/*.testcafe.js --live",
     "testcafe-app": "meteor --port=3080 --settings ../meteor_settings/mc-settings-testcafe.json",
-    "unit-test": "meteor test --once --driver-package meteortesting:mocha",
+    "unit-test": "meteor --port=3070 test --once --driver-package meteortesting:mocha",
     "visualize": "meteor --production --extra-packages bundle-visualizer"
   },
   "dependencies": {

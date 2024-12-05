@@ -18,3 +18,5 @@ describe("meteor-app", function () {
     });
   }
 });
+
+import '../imports/api/Cats/cat.test.js';

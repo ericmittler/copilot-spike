@@ -10,6 +10,8 @@ class Cat {
     return 'Meow!'
   }
 
+
+
   static sortByName(cats) {
     return cats.sort((a, b) => a.name.localeCompare(b.name))
   }

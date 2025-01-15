@@ -13,6 +13,7 @@ Pulling this repo will not teach you copilot. Eric just uses this as a real time
 - React v18
 - [Mui](https://mui.com/) for Javascriptable CSS. Material design based rapid UX development. Also allows for TDD for CSS, though I'm too lazy to do that.
 - mocha, chai, puppeteer for test driving
+- Check out the other packages in the [package.json](https://github.com/ericmittler/copilot-spike/blob/main/package.json) like simpl-schema for a full understanding of how I quickly stand up this app.
 - Visual Studio Code is used by Eric as an IDE. But I understand that JetBrains and others should have similar functionality.
 - Also, this repo will use [Markdown](https://www.markdownguide.org/cheat-sheet/) all over the place. If you do not know what that is, look it up to make your life happier.
 

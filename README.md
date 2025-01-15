@@ -2,7 +2,7 @@
 
 This is a sample application that I use to demo some uses of Copilot.
 
-The princples and demonstration cab be applied in most any tech stack from Oracle PLSQL, to Azure, to Java, to Javascript.
+The princples and demonstration can be applied in most any tech stack from Oracle PLSQL, to Azure, to Java, to Javascript.
 
 This demo stack is
 - 100% Javascript - largely ES6

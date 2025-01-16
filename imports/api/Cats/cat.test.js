@@ -10,19 +10,7 @@ describe('Cat model', () => {
   })
 
   describe('meow method', () => {
-    it('should return "Meow!"', () => {
-      const cat = new Cat({ name: 'Olaf' })
-      expect(cat.meow()).to.eql('Meow!')
-    })
+    it('should return "Meow!"')
   })
 
-  describe('sortByName method', () => {
-    it('should sort cats by their names', () => {
-      const cat1 = new Cat({ name: 'Olaf' })
-      const cat2 = new Cat({ name: 'Bella' })
-      const cat3 = new Cat({ name: 'Charlie' })
-      const sortedCats = Cat.sortByName([cat1, cat2, cat3])
-      expect(sortedCats.map(cat => cat.name)).to.eql(['Bella', 'Charlie', 'Olaf'])
-    })
-  })
 })

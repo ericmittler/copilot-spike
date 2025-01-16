@@ -1,7 +1,9 @@
 import { createTheme } from '@mui/material/styles'
 
-export default theme = createTheme({
-
+const theme = createTheme({
+  palette: {
+    background: { default: '#ddcfcf' },
+  },
   typography: {
     fontFamily: [
       'Arial', 'sans-serif'
@@ -45,3 +47,5 @@ export default theme = createTheme({
     }
   }
 })
+
+export default theme

@@ -5,6 +5,10 @@ class Cat {
     let cleaned = Cat.schema.clean(attrs || {})
     _.extend(this, cleaned)
   }
+
+  imageUrl() {
+    return `http://localhost:8000/${this._id}.png`
+  }
 }
 
 Cat.schema = new SimpleSchema({
